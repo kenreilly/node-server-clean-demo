@@ -1,0 +1,15 @@
+{
+  "name": "server-clean-demo",
+  "version": "1.0.0",
+  "description": "Example project of a Node webserver from scratch",
+  "main": "dist/server/app-server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kenneth Reilly @8_bit_hacker",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.5.9"
+  }
+}

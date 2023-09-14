@@ -1,0 +1,30 @@
+html, body {
+	min-height: 100vh;
+	background: #000000;
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: content-box;
+	overflow: hidden;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+body > div {
+	box-sizing: border-box;
+	width: 100vw;
+	clear: both;
+}
+
+body > div > label {
+	display: block;
+	color: orange;
+	width: 20vw;
+	float: left;
+}
+
+body > div > span {
+	float: left;
+	border-left: 2px solid cyan;
+	padding-left: 1vw;
+	font-style: italic;
+}
