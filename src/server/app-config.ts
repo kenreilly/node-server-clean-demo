@@ -28,7 +28,7 @@ export class AppConfig {
 	
 	get ssl() { return { key: this.ssl_key, cert: this.ssl_cert } }
 
-	private static assignable = ['http_port', 'ws_port', 'use_ssl']
+	private static assignable = ['http_port', 'ws_port']
 	private parse(key: string, val: string) {  if (AppConfig.assignable.indexOf(key) != -1) { this[key] = val } }
 
 	constructor() {
